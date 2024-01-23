@@ -8,9 +8,9 @@ This repo contains the code used for technical demonstrations sessions during th
 
 To access the files on your local machine, first clone the repo:
 
-> ```git clone https://github.com/foundersandcoders/foundation-demo.git```
+```git clone https://github.com/foundersandcoders/foundation-demo.git```
 
 Then install the project dependencies:
 
-> ```npm install```
+```npm install```
 
