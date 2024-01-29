@@ -4,6 +4,8 @@ import readline from 'readline';
 import subtract from './utils/subtract.js';
 import { multiply as mult } from './utils/mutiply.js';
 import divide from './utils/divide.js';
+
+//Import as a object
 import operations from './utils/operations.js';
 
 const rl = readline.createInterface({
