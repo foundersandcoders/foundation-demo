@@ -1,37 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-      <h1>Cat Breeds</h1>
-  </header>
-  <nav>
-      <ul>
-          <li aria-hidden="true">
-            <link rel="stylesheet" href="#">Maine Coon</link>
-          </li>
-          <li><link rel="stylesheet" href="#">Siamese</link></li>
-          <li><link rel="stylesheet" href="#">Persian</link></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1 tabindex="0">Cat Breeds</h1>
+    </header>
+
+    <nav>
+      <ul tabindex="0" aria-label="list of cat breeds">
+        <li aria-describedby="list-item-1">
+          <a id="list-item-1" href="#">Maine Coon</a>
+        </li>
+        <li>
+          <a href="#">Siamese</a>
+        </li>
+        <li>
+          <a href="#">Persian</a>
+        </li>
       </ul>
-  </nav>
-  <main>
-      <article>
-          <h2>About Cats</h2>
-          <p>Cats are small, carnivorous mammals that are often kept as pets. They are known for their agility, playful behavior, and various vocalizations.</p>
-      </article>
-  </main>
-  <aside>
-      <h3>Fun Fact</h3>
-      <p>Cats have been domesticated for nearly 4,000 years.</p>
-  </aside>
-  <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1443&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A cute cat">
-  <footer>
-      <p>Contact us for more information about cats.</p>
-  </footer>
-</body>
+    </nav>
+
+    <article>
+      <h2 tabindex="0" aria-describedby="cats-intro">About Cats</h2>
+      <p id="cats-intro">
+        Cats are small, carnivorous mammals that are often kept as pets. They
+        are known for their agility, playful behavior, and various
+        vocalizations.
+      </p>
+    </article>
+
+    <main>
+      <h3 tabindex="0">Fun Fact</h3>
+      <blockquote tabindex="0">
+        Cats have been domesticated for nearly 4,000 years.<br />
+        <cite tabindex="0"> by Winston Churchil</cite>
+      </blockquote>
+
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1443&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Close up of the face of a cute cat"
+          tabindex="0"
+        />
+        <figcaption>
+          <h2>Close up of the face of a cute cat</h2>
+          <p tabindex="0">All cats are cute like this one</p>
+        </figcaption>
+      </figure>
+    </main>
+
+    <footer aria-label="contact information">
+      <a tabindex="0" href="#"> Contact us for more information about cats. </a>
+    </footer>
+  </body>
 </html>
