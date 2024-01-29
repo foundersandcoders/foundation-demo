@@ -1,15 +1,16 @@
 {
-  "name": "css-demo",
+  "name": "foundation-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "* Foundation Demos",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "calc": "node node-demo/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^3.1.1"
-  }
+  "license": "ISC"
 }
