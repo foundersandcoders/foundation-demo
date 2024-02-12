@@ -1,0 +1,12 @@
+{
+  "name": "qa-testing",
+  "version": "1.0.0",
+  "description": "testing demo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
