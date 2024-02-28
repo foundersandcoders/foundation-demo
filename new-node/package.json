@@ -1,0 +1,21 @@
+{
+  "name": "new-node",
+  "version": "1.0.0",
+  "description": "Basic express server",
+  "main": "hello.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  }
+}
