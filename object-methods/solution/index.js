@@ -16,25 +16,26 @@ const mug = {
       `${liquidAmount}ml poured into the mug. The mug can take ${this.capacity}ml more.`
     );
   },
-  pourOut() { // extra if you have time and want to
+
+  pourOut() {
+    // extra if you have time and want to
     if (this.empty) {
       console.log('\u001b[0;35m', 'The mug is already empty');
       return;
     }
-
     console.log(
       '\u001b[0;35m',
-      `${500 - this.capacity}ml poured carelessly onto the floor. The mug is now empty.`
+      `${500 - this.capacity}ml poured careley osslnto the floor. The mug is now empty.`
     );
     this.empty = true;
     this.capacity = 500;
   },
-  set capacity(number){
-    this.capacity = number
+  set capacity(number) {
+    this.capacity = number;
   },
-  get capacity(){
-    return this.capacity
-  }
+  get capacity() {
+    return this.capacity;
+  },
 };
 
 // pourIn(250, mug); // do this first

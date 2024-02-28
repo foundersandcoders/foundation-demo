@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "* Foundation Demos",
   "main": "index.js",
+  "type": "module",
   "devDependencies": {
+    "cypress": "^13.6.6",
     "prettier": "^3.2.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "calc": "node node-demo/index.js"
+    "calc": "node node-demo/index.js",
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "",
