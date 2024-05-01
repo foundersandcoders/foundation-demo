@@ -28,7 +28,7 @@
 
 :root {
   --header-font: 'Nunito', sans-serif;
-  --blue: #c6def1;
+  --blue: #4692d1;
   --green: #c9e4de;
   --purple: #dbcdf0;
   --pink: #f2c6de;
@@ -52,31 +52,28 @@ h1 {
 /*------------------------------------*\
 Universal
 \*------------------------------------*/
-.wrapper {
+.container {
   width: 90%;
   min-height: 500px;
   margin: auto;
   border: solid 1px blue;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(4, 1fr);
   gap: 1rem;
 }
 
 .box {
-  width: auto;
-  height: auto;
   border: 1px solid pink;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*------------------------------------*\
@@ -86,10 +83,7 @@ Components
 .blue {
   background: var(--blue);
 }
-
-.green {
-  background: var(--green);
-}
+§
 
 .purple {
   background: var(--purple);
